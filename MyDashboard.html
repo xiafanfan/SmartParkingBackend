@@ -17,7 +17,18 @@
    <!-- Responsive CSS -->
    <link rel="stylesheet" href="css/responsive.css">
 </head>
-
+<script type="text/javascript">
+	 function displayNum3() {
+		 document.getElementsByClassName("mb-0")[2].textContent = Math.floor(Math.random() * (70 - 25) + 31895);
+		 document.getElementsByClassName("mb-0")[5].textContent = Math.floor(Math.random() * (100 - 25) + 11112);
+		 document.getElementsByClassName("mb-0")[8].textContent = Math.floor(Math.random() * (100 - 25) + 3019);
+		 document.getElementsByClassName("counter")[0].textContent = Math.floor(Math.random() * (70 - 25) + 4500);
+		 document.getElementsByClassName("counter")[1].textContent = Math.floor(Math.random() * (30 - 25) + 1);
+	 }
+</script>
+<div id="setnum03" class="number">
+		<script>setInterval(displayNum3,500)</script>
+   </div>
 <body>
    <!-- loader Start -->
    <div id="loading">

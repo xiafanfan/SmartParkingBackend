@@ -16,6 +16,22 @@
       <!-- Responsive CSS -->
       <link rel="stylesheet" href="css/responsive.css">
    </head>
+   <script type="text/javascript">
+         function displayNum3() {
+			 document.getElementsByClassName("h2 text-dark mb-0 counter d-inline-block w-100")[0].textContent = Math.floor(Math.random() * (100 - 25) + 305);
+			 document.getElementsByClassName("h2 text-dark mb-0 counter d-inline-block w-100")[1].textContent = Math.floor(Math.random() * (100 - 25) + 571);
+			 document.getElementsByClassName("h2 text-dark mb-0 counter d-inline-block w-100")[2].textContent = Math.floor(Math.random() * (100 - 25) + 260);
+			 document.getElementsByClassName("h2 text-dark mb-0 counter d-inline-block w-100")[3].textContent = Math.floor(Math.random() * (100 - 25) + 140);
+			 document.getElementsByClassName("counter")[4].textContent = Math.floor(Math.random() * (100 - 25) + 380);
+			 document.getElementsByClassName("counter")[5].textContent = Math.floor(Math.random() * (100 - 25) + 1);
+			 document.getElementsByClassName("counter")[6].textContent = Math.floor(Math.random() * (100 - 25) + 50);
+			<!--document.getElementsByClassName("text-success mr-2")[0].textContent = Math.floor(Math.random() * (30 - 25) + 1);-->
+			<!-- document.getElementsById("usernum").textContent = Math.floor(Math.random() * (301 - 25) + 25); -->
+         }
+    </script>
+	<div id="setnum03" class="number">
+		<script>setInterval(displayNum3,1000)</script>
+   </div>
    <body>
       <!-- loader Start -->
       <div id="loading">
